@@ -346,7 +346,7 @@ const ContactPage = () => {
               title="Google Map - Banka Bihar"
               width="100%"
               height="100%"
-              src="https://maps.google.com/maps?q=Banka+Bihar+India&t=&z=11&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4483.481640062111!2d86.76425317606736!3d24.838917346118034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f107b0c5af44fd%3A0xaa528e646edc9b74!2sRQQ8%2BHP8%2C%20Mothawari%2C%20Bihar!5e1!3m2!1sen!2sin!4v1788862992563!5m2!1sen!2sin"
               frameBorder="0"
               scrolling="no"
               marginHeight="0"
