@@ -66,38 +66,6 @@ const projectsData = [
       "Panchayat buildings, community centres, and rural development works.",
     image: "/img/8.jpg",
   },
-  {
-    id: 9,
-    category: "Environment & Forest",
-    title: "Green Infrastructure",
-    description:
-      "Eco-friendly construction, afforestation, and sustainable building practices.",
-    image: "/img/project-1.jpg",
-  },
-  {
-    id: 10,
-    category: "Infrastructure Authority",
-    title: "Major Infrastructure Projects",
-    description:
-      "Bridges, flyovers, and large-scale civil works under state infrastructure plans.",
-    image: "/img/project-2.jpg",
-  },
-  {
-    id: 11,
-    category: "BUIDCo",
-    title: "Urban Infrastructure Projects",
-    description:
-      "Water supply, sewerage, and solid waste management in urban areas.",
-    image: "/img/project-3.jpg",
-  },
-  {
-    id: 12,
-    category: "Building Construction",
-    title: "Commercial & Residential Complexes",
-    description:
-      "Multi-storeyed buildings, shopping complexes, and housing societies.",
-    image: "/img/project-4.jpg",
-  },
 ];
 
 const ProjectsPage = () => {
