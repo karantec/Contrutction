@@ -127,7 +127,7 @@ const Footer = () => {
 
               {/* X / Twitter */}
               <a
-                href="https://twitter.com"
+                href="https://x.com/Parishisht3d"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="X (formerly Twitter)"
