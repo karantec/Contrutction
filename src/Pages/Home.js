@@ -136,7 +136,7 @@ const Home = () => {
                     <FaBuilding /> PCPL
                   </span>
                   <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-                    Parishisht
+                    Welcome to Parishisht
                   </h1>
                   <h2 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white mt-2">
                     Construction (P) LTD.

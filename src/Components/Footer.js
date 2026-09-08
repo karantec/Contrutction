@@ -148,10 +148,16 @@ const Footer = () => {
                 parishishtconstruction@gmail.com
               </a>
               <a
+                href="mailto:info@parishishtconstruction.com"
+                className="text-xs sm:text-sm font-medium text-orange-400 hover:underline block break-all"
+              >
+                info@parishishtconstruction.com
+              </a>
+              <a
                 href="tel:+918789970312"
                 className="text-sm font-semibold text-slate-300 hover:text-orange-400 transition-colors block"
               >
-                +91 9470490312
+                +91 8789970312
               </a>
             </div>
           </div>
