@@ -22,11 +22,11 @@ const Footer = () => {
   };
 
   const companyLinks = [
-    { name: "About Us", href: "#about" },
-    { name: "Our Services", href: "#services" },
-    { name: "Projects", href: "#projects" },
-    { name: "Career", href: "#career" },
-    { name: "Contact Us", href: "#contact" },
+    { name: "ABOUT", href: "/about" },
+    { name: "SERVICES", href: "/services" },
+    { name: "CAREER", href: "/career" },
+    { name: "PROJECTS", href: "/projects" },
+    { name: "CONTACT", href: "/contact" },
   ];
 
   return (
