@@ -108,7 +108,7 @@ const ProjectsPage = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold">Our Projects</h2>
           <p className="text-lg opacity-80 mt-2">
-            Executed for various government departments in Bihar
+            Executed for various government departments in India
           </p>
         </div>
       </section>
