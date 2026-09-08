@@ -12,8 +12,11 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Get current path (works on both client and server, but we're client-only)
+  const currentPath = window.location.pathname;
+
   const navLinks = [
-    { name: "HOME", href: "/", active: true },
+    { name: "HOME", href: "/" },
     { name: "ABOUT", href: "/about" },
     { name: "SERVICES", href: "/services" },
     { name: "CAREER", href: "/career" },
@@ -31,7 +34,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo & Brand: changed href from "#" to "/" */}
+          {/* Logo & Brand */}
           <a
             href="/"
             className="group flex items-center space-x-3 transition-transform duration-200 hover:scale-[1.01]"
@@ -47,26 +50,30 @@ const Navbar = () => {
 
           {/* Desktop Nav Items */}
           <nav className="hidden md:flex items-center space-x-1 lg:space-x-3">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className={`relative px-3.5 py-2 text-[13px] font-bold tracking-[0.08em] transition-colors duration-200 group ${
-                  link.active
-                    ? "text-orange-600"
-                    : "text-slate-800 hover:text-orange-500"
-                }`}
-              >
-                {link.name}
-                <span
-                  className={`absolute bottom-0.5 left-1/2 -translate-x-1/2 h-[2.5px] rounded-full transition-all duration-300 ${
-                    link.active
-                      ? "w-6 bg-orange-500"
-                      : "w-0 group-hover:w-5 bg-orange-400 opacity-70"
+            {navLinks.map((link) => {
+              // Determine if this link is active
+              const isActive = link.href === currentPath;
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className={`relative px-3.5 py-2 text-[13px] font-bold tracking-[0.08em] transition-colors duration-200 group ${
+                    isActive
+                      ? "text-orange-600"
+                      : "text-slate-800 hover:text-orange-500"
                   }`}
-                />
-              </a>
-            ))}
+                >
+                  {link.name}
+                  <span
+                    className={`absolute bottom-0.5 left-1/2 -translate-x-1/2 h-[2.5px] rounded-full transition-all duration-300 ${
+                      isActive
+                        ? "w-6 bg-orange-500"
+                        : "w-0 group-hover:w-5 bg-orange-400 opacity-70"
+                    }`}
+                  />
+                </a>
+              );
+            })}
           </nav>
 
           {/* Action Button */}
@@ -136,17 +143,24 @@ const Navbar = () => {
         }`}
       >
         <div className="flex flex-col space-y-2">
-          {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              onClick={() => setIsOpen(false)}
-              className="flex items-center justify-between text-xs font-bold tracking-wider text-slate-800 hover:text-orange-500 py-2.5 border-b border-slate-50 last:border-0 transition-colors"
-            >
-              <span>{link.name}</span>
-              <span className="text-orange-400">→</span>
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = link.href === currentPath;
+            return (
+              <a
+                key={link.name}
+                href={link.href}
+                onClick={() => setIsOpen(false)}
+                className={`flex items-center justify-between text-xs font-bold tracking-wider py-2.5 border-b border-slate-50 last:border-0 transition-colors ${
+                  isActive
+                    ? "text-orange-500"
+                    : "text-slate-800 hover:text-orange-500"
+                }`}
+              >
+                <span>{link.name}</span>
+                <span className="text-orange-400">→</span>
+              </a>
+            );
+          })}
 
           <div className="pt-3">
             <a
