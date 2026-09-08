@@ -23,6 +23,7 @@ import {
   FaQuoteRight,
   FaChevronUp,
 } from "react-icons/fa";
+import { FaTrainSubway } from "react-icons/fa6";
 
 // ─── Services Data (23 items) ───────────────────────────────────────────────
 const services = [
@@ -130,6 +131,11 @@ const services = [
     icon: FaFillDrip,
     title: "Painting & Finishing",
     desc: "High‑quality interior and exterior painting, plastering, and protective coatings for lasting beauty.",
+  },
+  {
+    icon: FaTrainSubway,
+    title: "Railway Infrastructure & Civil Works",
+    desc: "Earthwork, track bed stabilization, platform development, station building civil works, and rail-adjacent drainage systems.",
   },
   {
     icon: FaUmbrella,
