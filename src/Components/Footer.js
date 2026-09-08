@@ -145,7 +145,7 @@ const Footer = () => {
                 href="mailto:info@parishishtconstruction.com"
                 className="text-xs sm:text-sm font-medium text-orange-400 hover:underline block break-all"
               >
-                info@parishishtconstruction.com
+                parishishtconstruction@gmail.com
               </a>
               <a
                 href="tel:+918789970312"
