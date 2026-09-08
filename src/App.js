@@ -9,6 +9,7 @@ import ProjectsPage from "./Pages/Project";
 import ContactPage from "./Pages/Contact";
 import CareerPage from "./Pages/Career";
 import Home from "./Pages/Home";
+import Safety from "./Pages/Safety";
 
 const NotFound = () => <div className="p-8">404 - Page Not Found</div>;
 
@@ -30,6 +31,8 @@ const App = () => {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/career" element={<CareerPage />} />
+          <Route path="/safety" element={<Safety />} />{" "}
+          {/* Placeholder for Safety page */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
