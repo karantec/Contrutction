@@ -7,6 +7,7 @@ import {
   CheckCircle2,
   TrendingUp,
 } from "lucide-react";
+import Team from "./Team";
 
 export default function AboutUsBody() {
   const workSteps = [
@@ -310,6 +311,7 @@ export default function AboutUsBody() {
             </div>
           </div>
         </div>
+        <Team />
       </section>
     </main>
   );
