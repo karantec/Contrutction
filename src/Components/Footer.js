@@ -99,7 +99,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex items-center space-x-3 pt-2">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/19DNiKvVpR/"
                 aria-label="Facebook"
                 className="w-9 h-9 rounded-full bg-slate-800/80 hover:bg-orange-500 text-slate-300 hover:text-white flex items-center justify-center transition-all duration-200 shadow-sm"
               >
@@ -108,7 +108,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/parishishtconstruction?stkn=MzB3bWN4cXR4bnBs"
                 aria-label="Instagram"
                 className="w-9 h-9 rounded-full bg-slate-800/80 hover:bg-orange-500 text-slate-300 hover:text-white flex items-center justify-center transition-all duration-200 shadow-sm"
               >
