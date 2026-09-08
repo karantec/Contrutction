@@ -31,20 +31,18 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo & Brand */}
+          {/* Logo & Brand: changed href from "#" to "/" */}
           <a
-            href="#"
+            href="/"
             className="group flex items-center space-x-3 transition-transform duration-200 hover:scale-[1.01]"
           >
             <div className="relative flex items-center justify-center">
               <img
-                src="img/Logo.jpeg"
+                src="/img/Logo.jpeg"
                 alt="INDICO Logo"
                 className="h-9 w-auto object-contain transition-transform duration-300 group-hover:rotate-1"
               />
             </div>
-
-            {/* Industrial Bold Heading */}
           </a>
 
           {/* Desktop Nav Items */}
@@ -60,7 +58,6 @@ const Navbar = () => {
                 }`}
               >
                 {link.name}
-                {/* Micro underline highlight */}
                 <span
                   className={`absolute bottom-0.5 left-1/2 -translate-x-1/2 h-[2.5px] rounded-full transition-all duration-300 ${
                     link.active
@@ -75,7 +72,7 @@ const Navbar = () => {
           {/* Action Button */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="#quote"
+              href="/contact"
               className="relative inline-flex items-center justify-center px-6 py-3 text-xs font-bold tracking-wide uppercase text-white rounded-lg bg-gradient-to-r from-orange-500 via-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 shadow-md shadow-orange-500/20 hover:shadow-lg hover:shadow-orange-500/35 transition-all duration-200 active:scale-95 group"
             >
               <span>Request a Quote</span>
@@ -153,7 +150,7 @@ const Navbar = () => {
 
           <div className="pt-3">
             <a
-              href="#quote"
+              href="/contact"
               onClick={() => setIsOpen(false)}
               className="flex items-center justify-center w-full py-3 px-4 text-center text-xs font-bold uppercase tracking-wider text-white rounded-lg bg-gradient-to-r from-orange-500 to-orange-600 shadow-md shadow-orange-500/25 active:scale-95 transition-all"
             >
