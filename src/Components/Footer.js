@@ -201,7 +201,9 @@ const Footer = () => {
             © {new Date().getFullYear()} Parishisht Construction Pvt Ltd. All
             rights reserved.
           </p>
-          <p className="mt-2 sm:mt-0">Crafted with precision & passion.</p>
+          <p className="mt-2 sm:mt-0">
+            Crafted with precision & passion.@CodingDitto
+          </p>
         </div>
       </div>
 
