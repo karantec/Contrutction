@@ -13,7 +13,7 @@ import Home from "./Pages/Home";
 const NotFound = () => <div className="p-8">404 - Page Not Found</div>;
 
 const App = () => {
-  const whatsappNumber = "919470490312";
+  const whatsappNumber = "918789970312";
   const defaultMessage = encodeURIComponent(
     "Hello Parishisht Construction, I would like to inquire about your services.",
   );
