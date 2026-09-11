@@ -10,7 +10,7 @@ import ContactPage from "./Pages/Contact";
 import CareerPage from "./Pages/Career";
 import Home from "./Pages/Home";
 import Safety from "./Pages/Safety";
-
+import NotFoundPage from "./Pages/NotFoundPage";
 
 const App = () => {
   const whatsappNumber = "918789970312";
