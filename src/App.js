@@ -32,7 +32,7 @@ const App = () => {
           <Route path="/career" element={<CareerPage />} />
           <Route path="/safety" element={<Safety />} />{" "}
           {/* Placeholder for Safety page */}
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
 
