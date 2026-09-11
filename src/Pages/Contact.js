@@ -58,7 +58,7 @@ const ContactPage = () => {
 
             <div className="space-y-6 relative z-10">
               <h2 className="text-2xl sm:text-3xl font-bold tracking-tight leading-snug">
-                Parishisht <br /> Construction
+                Parishisht <br /> Construction (P) Ltd.
               </h2>
               <p className="text-orange-50 text-sm leading-relaxed border-b border-white/20 pb-6">
                 A trusted name in building and infrastructure. We bring your

@@ -41,10 +41,10 @@ export default function AboutUsBody() {
 
         <div className="relative max-w-4xl mx-auto px-4">
           <span className="inline-block px-4 py-1.5 mb-4 text-xs font-semibold uppercase tracking-wider text-[#f15d30] bg-[#f15d30]/10 rounded-full border border-[#f15d30]/20">
-            About Parishisht Construction
+            Parishisht Construction(P) Ltd.
           </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
-            Building Infrastructure, Shaping Bihar
+            Building Infrastructure Bihar
           </h1>
           <p className="text-lg sm:text-xl text-slate-300 font-light max-w-2xl mx-auto leading-relaxed">
             Delivering excellence through engineering discipline, community

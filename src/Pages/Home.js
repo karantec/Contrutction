@@ -227,7 +227,7 @@ const Home = () => {
             <div className="w-full lg:w-1/2 px-4" data-aos="fade-right">
               <h2 className="text-3xl font-bold text-gray-800 leading-tight">
                 We are experts in construction & infrastructure solutions since
-                1991
+                2020
               </h2>
               <p className="text-gray-600 mt-4 leading-relaxed">
                 <strong>Parishisht Construction (PCPL)</strong> is a premier

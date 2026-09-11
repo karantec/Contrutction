@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className="flex flex-col min-h-screen relative">
-      <Header />
+      {/* <Header /> */}
 
       <div className="flex-1">
         <Routes>
@@ -47,7 +47,7 @@ const App = () => {
         <FaWhatsapp className="w-8 h-8" />
       </a>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
