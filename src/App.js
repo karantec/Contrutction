@@ -11,7 +11,6 @@ import CareerPage from "./Pages/Career";
 import Home from "./Pages/Home";
 import Safety from "./Pages/Safety";
 
-const NotFound = () => <div className="p-8">404 - Page Not Found</div>;
 
 const App = () => {
   const whatsappNumber = "918789970312";
@@ -25,7 +24,7 @@ const App = () => {
 
       <div className="flex-1">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<NotFoundPage />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
