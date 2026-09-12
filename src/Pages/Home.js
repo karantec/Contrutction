@@ -230,7 +230,7 @@ const Home = () => {
                 2020
               </h2>
               <p className="text-gray-600 mt-4 leading-relaxed">
-                <strong>Parishisht Construction (PCPL)</strong> is a premier
+                <strong>Parishisht Construction(P) Ltd.</strong> is a premier
                 civil construction company based in Bihar, India. We specialise
                 in water supply schemes, public health engineering, school
                 infrastructure, and urban development.
